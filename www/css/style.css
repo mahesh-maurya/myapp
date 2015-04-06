@@ -25,7 +25,9 @@
     src: url(../fonts/Roboto-Bold.ttf);
     font-weight: 500;
 }
-
+a{
+text-decoration: none;
+}
 .home-screens {
     background:#ff6b6b;
     -webkit-background-size: 100% 100%;
@@ -45,7 +47,7 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .row+.row {
@@ -58,7 +60,8 @@
 }
 
 .user-content {
-    margin-top: 20%;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .welocme-content .img-logo {
@@ -191,6 +194,7 @@ img.img-user {
     height: 47px;
     margin: 3px 0px 0px 0px;
     padding: 7px;
+    text-align: center;
 }
 
 .col.set-lock {
@@ -200,6 +204,7 @@ img.img-user {
     height: 47px;
     margin: 3px 0px 0px 0px;
     padding: 7px;
+    text-align: center;
 }
 
 .col.set-email {
@@ -209,6 +214,7 @@ img.img-user {
     height: 47px;
     margin: 3px 0px 0px 0px;
     padding: 7px;
+    text-align: center;
 }
 
 .col.set-num {
@@ -219,6 +225,7 @@ img.img-user {
     height: 47px;
     margin: 3px 0px 0px 0px;
     padding: 7px;
+    text-align: center;
 }
 
 .set-user {
@@ -234,6 +241,7 @@ img.img-user {
     border: 0px solid rgb(255, 129, 129);
     margin: -3px;
     padding: 9px 0px 5px 16px;
+    text-align: center;
 }
 
 .set-emails {
@@ -273,6 +281,7 @@ input.button.button-block {
     top: 40px;
     font-size: 18px;
     font-weight: 300;
+    border-radius: 0px;
 }
 
 .pro-name h3 {
@@ -296,7 +305,7 @@ input.button.button-block {
 }
 
 .profile-content {
-    margin: 25px auto;
+    margin-top: 10%;
 }
 
 .pro-btn .item-icon-left {
@@ -334,6 +343,7 @@ input.button.button-block {
 
 .det-btn {
     border-top: 1px solid #cc5656;
+    margin-top: 10%;
 }
 
 .det-btn .tab-item {
@@ -417,10 +427,10 @@ input.button.button-block {
     position: absolute;
     bottom: 20px;
     right: 0px;
-    min-height: 35px;
+    min-height: 28px;
     min-width: 30px;
     font-size: 15px;
-    padding: 5px 15px 5px 15px;
+    padding: 2px 10px 2px 10px;
     font-weight: 300;
 }
 
@@ -436,4 +446,17 @@ input.button.button-block {
 }
 .set-mess span.badge.badge-assertive {
     font-weight: 300;
+}
+.login-btn a {
+    text-decoration: none;
+}
+.pro-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.button.button-dark.button-clear {
+  border-color: transparent;
+  background: 0 0;
+  box-shadow: none;
+  color: #FFEF6B;
 }
